@@ -19,3 +19,12 @@ body {
   background: var(--background);
   font-family: Inter, sans-serif;
 }
+
+.maskovany-obrazok {
+  mask-image: url('/maska.svg');
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  -webkit-mask-image: url('/maska.svg');
+  -webkit-mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+}
