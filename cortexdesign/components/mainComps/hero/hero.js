@@ -4,11 +4,7 @@ import HeroBG from "../../../public/hero.png";
 
 const Hero = () => {
     return (
-        <section className={'xl:mx-44 xl:my-10 relative'} style={{
-            backgroundImage: `url("../../../public/hero.png")`,
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
-        }}>
+        <section className={'xl:mx-44 xl:my-10 relative'}>
             <Image
                 src={HeroBG}
                 alt={"Interiérový dizajn"}
