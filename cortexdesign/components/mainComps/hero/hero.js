@@ -4,7 +4,7 @@ import HeroBG from "../../../public/hero.png";
 
 const Hero = () => {
     return (
-        <section className={'xl:mx-44 xl:my-10 relative'}>
+        <section className={'xl:mx-44 xl:my-10 relative'} >
             <Image
                 src={HeroBG}
                 alt={"Interiérový dizajn"}
